@@ -1,15 +1,13 @@
 //https://github.com/RAVANA-SL/slRavana
 
-let RaOne = require('../events');
-let Config = require('../config');
-let fs = require('fs');
-let {MessageType} = require('@adiwajshing/baileys');
-let Language = require('../language');
-let Lang = Language.getString('__RavanaBot');
+const RaOne = require('../events');
+const Config = require('../config');
+const fs = require('fs');
+const {MessageType} = require('@adiwajshing/baileys');
+const Language = require('../language');
+const Lang = Language.getString('__RavanaBot');
 
-var MTEXT = ''
-if (Config.LANG == 'EN') MTEXT = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
-if (Config.LANG == 'SI') MTEXT = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nහායි @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ අයිතිකරුගේ අංකය: *wa.me/'+Config.OWNERNUM+'*\n★彡[ පිටපත: *'+Config.VERSION+'*\n★彡[ ශාඛාව: *'+Config.BRANCH+'*\n★彡[ භාෂාව: *සිංහල*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
+const MTEXT = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
 
 let td = Config.WORKTYPE == 'public' ? false : true
 
