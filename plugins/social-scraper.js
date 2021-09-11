@@ -8,7 +8,9 @@ const Config = require('../config');
 const Language = require('../language')
 const { errorMessage, infoMessage } = require('../helpers')
 const Lang = Language.getString('instagram')
-
+const NEED = "plz enter tiktok link"
+const DOWN = "Downlading plz waite"
+const NOT = "i cloud't find this"
 if (Config.WORKTYPE == 'private') {
 
     Raone.addCommand({ pattern: 'ig ?(.*)', fromMe: true, desc: 'Download in instagram' }, (async (message, match) => {
@@ -119,13 +121,13 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Raone.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, desc: Tlang.TİKTOK }, async (message, match) => {
+    Raone.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, desc: 'Download in tiktok (with out watermark)' }, async (message, match) => {
 
         const userName = match[1]
 
-        if (!userName) return await message.client.sendMessage(message.jid, Tlang.NEED, MessageType.text)
+        if (!userName) return await message.client.sendMessage(message.jid, NEED, MessageType.text)
 
-        await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text)
+        await message.client.sendMessage(message.jid, DOWN, MessageType.text)
 
         await axios
           .get(`https://api.xteam.xyz/dl/tiktok?url=${userName}&APIKEY=${Config.XTEAM_API}`)
@@ -139,11 +141,11 @@ else if (Config.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsAsena',
+              caption: Config.CP_TEXT,
             })
           })
           .catch(
-            async (err) => await message.client.sendMessage(message.jid, Tlang.NOT + userName, MessageType.text),
+            async (err) => await message.client.sendMessage(message.jid, NOT + userName, MessageType.text),
           )
       },
     )
