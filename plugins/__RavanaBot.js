@@ -6,11 +6,12 @@ let fs = require('fs');
 let {MessageType} = require('@adiwajshing/baileys');
 let Language = require('../language');
 let Lang = Language.getString('__RavanaBot');
-let td = Config.WORKTYPE == 'public' ? false : true
 
 var MTEXT = ''
-if (Config.LANG == 'EN') warning = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
-if (Config.LANG == 'SI') warning = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nහායි @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ අයිතිකරුගේ අංකය: *wa.me/'+Config.OWNERNUM+'*\n★彡[ පිටපත: *'+Config.VERSION+'*\n★彡[ ශාඛාව: *'+Config.BRANCH+'*\n★彡[ භාෂාව: *සිංහල*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
+if (Config.LANG == 'EN') MTEXT = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
+if (Config.LANG == 'SI') MTEXT = '꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nහායි @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ අයිතිකරුගේ අංකය: *wa.me/'+Config.OWNERNUM+'*\n★彡[ පිටපත: *'+Config.VERSION+'*\n★彡[ ශාඛාව: *'+Config.BRANCH+'*\n★彡[ භාෂාව: *සිංහල*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n'
+
+let td = Config.WORKTYPE == 'public' ? false : true
 
     RaOne.addCommand({pattern: 'ravana ?(.*)', fromMe: td, dontAddCommandList: true}, (async (message, match) => {
         
