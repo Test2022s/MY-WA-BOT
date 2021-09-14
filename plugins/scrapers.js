@@ -169,13 +169,13 @@ if (Config.WORKTYPE == 'private') {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
 
-        var reply = await message.client.sendMessage(message.jid,VIDEO_DOWN,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,Config.VIDEO_DOWN,MessageType.text);
 
         var yt = ytdl(arama.videoId, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
         yt.pipe(fs.createWriteStream('./' + arama.videoId + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,VIDEO_UP,MessageType.text);
+            reply = await message.client.sendMessage(message.jid,Config.VIDEO_UP,MessageType.text);
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + arama.videoId + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, contextInfo: { forwardingScore: 1, isForwarded: true }, quoted: message.data, caption: '\n```'+ arama.title +'```\n\n'+ Config.VID_CP +'\n'});
         });
     }));
@@ -436,13 +436,13 @@ else if (Config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
 
-        var reply = await message.client.sendMessage(message.jid,VIDEO_DOWN,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,Config.VIDEO_DOWN,MessageType.text);
 
         var yt = ytdl(arama.videoId, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
         yt.pipe(fs.createWriteStream('./' + arama.videoId + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,VIDEO_UP,MessageType.text);
+            reply = await message.client.sendMessage(message.jid,Config.VIDEO_UP,MessageType.text);
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + arama.videoId + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, contextInfo: { forwardingScore: 1, isForwarded: true }, quoted: message.data, caption: '\n```'+ arama.title +'```\n\n'+ Config.VID_CP +'\n'});
         });
     }));
