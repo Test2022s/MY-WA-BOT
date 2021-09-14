@@ -385,10 +385,10 @@ ${chalk.blue.italic('⭕ Ravana Connecting to WhatsApp</> Please Wait ❕')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/Rs.jpg"), MessageType.image, { caption: '*⚕️  රාවණා බොට්හි දෝෂයක් සිදුවී ඇත  ⚕️*\n_සහෝදර ' + ${conn.user.name} + '_‍n\n\n*රාවණා බොට්හි දෝෂයක් සිදුවී ඇත කරුණාකර එය අපගේ කණ්ඩායමට යොමු කරන්න* : *_https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP_*\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/Rs.jpg"), MessageType.image, { caption: '*⚕️  රාවණා බොට්හි දෝෂයක් සිදුවී ඇත  ⚕️*\n\n*රාවණා බොට්හි දෝෂයක් සිදුවී ඇත කරුණාකර එය අපගේ කණ්ඩායමට යොමු කරන්න* : *_https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP_*\n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/Rs.jpg"), MessageType.image, { caption: '*⚕️ ERROR ANALYSIS RAVANA BOT ⚕️*\n_Dear ' + ${conn.user.name} + '_\n\n*An error has occurred in the Ravana bot. Please refer it to our team* : *_https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP_*\n\n*error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/Rs.jpg"), MessageType.image, { caption: '*⚕️ ERROR ANALYSIS RAVANA BOT ⚕️*\n\n*An error has occurred in the Ravana bot. Please refer it to our team* : *_https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP_*\n\n*error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
