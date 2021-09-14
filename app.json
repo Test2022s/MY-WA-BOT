@@ -56,11 +56,6 @@
             "required": true,
             "value": "^[/.!]"
         },
-        "FULL_EVA": {
-            "description": "Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
-        },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
             "required": true,
