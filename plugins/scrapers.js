@@ -29,7 +29,7 @@ const spotifyApi = new SpotifyWebApi({
 
 let gis = require('g-i-s');
 
-if (config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'private') {
 
     Raone.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
 
@@ -42,10 +42,10 @@ if (config.WORKTYPE == 'private') {
             return await message.client.sendMessage(message.jid,Lang.NEED_REPLY,MessageType.text);
         }
 
-        ceviri = await translatte(message.reply_message.message, {from: match[1] === '' ? 'auto' : match[1], to: match[2] === '' ? config.LANG : match[2]});
+        ceviri = await translatte(message.reply_message.message, {from: match[1] === '' ? 'auto' : match[1], to: match[2] === '' ? Config.LANG : match[2]});
         if ('text' in ceviri) {
             return await message.reply('*▶️ ' + Lang.LANG + ':* ```' + (match[1] === '' ? 'auto' : match[1]) + '```\n'
-            + '*◀️ ' + Lang.FROM + '*: ```' + (match[2] === '' ? config.LANG : match[2]) + '```\n'
+            + '*◀️ ' + Lang.FROM + '*: ```' + (match[2] === '' ? Config.LANG : match[2]) + '```\n'
             + '*🔎 ' + Lang.RESULT + ':* ```' + ceviri.text + '```');
         } else {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
@@ -63,7 +63,7 @@ if (config.WORKTYPE == 'private') {
             return;
     
         let 
-            LANG = config.LANG.toLowerCase(),
+            LANG = Config.LANG.toLowerCase(),
             ttsMessage = match[1],
             SPEED = 1.0
 
@@ -215,7 +215,7 @@ if (config.WORKTYPE == 'private') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.SEARCHING,MessageType.text);
 
-        var arama = await wiki({ apiUrl: 'https://' + config.LANG + '.wikipedia.org/w/api.php' })
+        var arama = await wiki({ apiUrl: 'https://' + Config.LANG + '.wikipedia.org/w/api.php' })
             .page(match[1]);
 
         var info = await arama.rawContent();
@@ -296,7 +296,7 @@ if (config.WORKTYPE == 'private') {
       },
     )
 }
-else if (config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'public') {
 
     Raone.addCommand({pattern: 'tr(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: false}, (async (message, match) => {
 
@@ -309,10 +309,10 @@ else if (config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.NEED_REPLY,MessageType.text);
         }
 
-        ceviri = await translatte(message.reply_message.message, {from: match[1] === '' ? 'auto' : match[1], to: match[2] === '' ? config.LANG : match[2]});
+        ceviri = await translatte(message.reply_message.message, {from: match[1] === '' ? 'auto' : match[1], to: match[2] === '' ? Config.LANG : match[2]});
         if ('text' in ceviri) {
             return await message.reply('*▶️ ' + Lang.LANG + ':* ```' + (match[1] === '' ? 'auto' : match[1]) + '```\n'
-            + '*◀️ ' + Lang.FROM + '*: ```' + (match[2] === '' ? config.LANG : match[2]) + '```\n'
+            + '*◀️ ' + Lang.FROM + '*: ```' + (match[2] === '' ? Config.LANG : match[2]) + '```\n'
             + '*🔎 ' + Lang.RESULT + ':* ```' + ceviri.text + '```');
         } else {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
@@ -330,7 +330,7 @@ else if (config.WORKTYPE == 'public') {
             return;
     
         let 
-            LANG = config.LANG.toLowerCase(),
+            LANG = Config.LANG.toLowerCase(),
             ttsMessage = match[1],
             SPEED = 1.0
 
@@ -482,7 +482,7 @@ else if (config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
         var reply = await message.client.sendMessage(message.jid,Lang.SEARCHING,MessageType.text);
 
-        var arama = await wiki({ apiUrl: 'https://' + config.LANG + '.wikipedia.org/w/api.php' })
+        var arama = await wiki({ apiUrl: 'https://' + Config.LANG + '.wikipedia.org/w/api.php' })
             .page(match[1]);
 
         var info = await arama.rawContent();
