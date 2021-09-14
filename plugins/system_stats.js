@@ -19,7 +19,7 @@ if (Config.ALIVE_IMG_TYPE == 'pp') {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image,{contextInfo: { forwardingScore: 2, isForwarded: true },caption: Config.ALIVEMSG }); });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, caption: Config.ALIVEMSG}); });
     }));
 
     Raone.addCommand({pattern: 'sysd', fromMe: rn, desc: Lang.SYSD_DESC}, (async (message, match) => {
@@ -36,6 +36,6 @@ else if (Config.ALIVE_IMG_TYPE == 'img') {
 
     var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {contextInfo: { forwardingScore: 2, isForwarded: true },caption: Config.ALIVEMSG })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, caption: Config.ALIVEMSG})
    }));
 }
