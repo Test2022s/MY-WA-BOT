@@ -6,10 +6,10 @@ const fs = require('fs');
 const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 const Lang = Language.getString('__RavanaBot');
+
 const td = Config.WORKTYPE == 'public' ? false : true
 
-var MTEXT = ''
-if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n\n   *🌷😲  𝐜𝐨𝐦𝐦𝕒ή𝒹𝓢 ᗰ𝔢𝕟𝕌  💝♙*\n\n'
+const MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay @'+message.jid.split('@')[0]+',\n\n'+Config.MENUTEXT+'\n\n*★彡[ Contact Owner: *wa.me/'+Config.OWNERNUM+'*\n★彡[ Version: *'+Config.VERSION+'*\n★彡[ Branch: *'+Config.BRANCH+'*\n★彡[ Language: *EN*\n★彡[ Work Type: *'+Config.WORKTYPE+'*\n\n\n   *🌷😲  𝐜𝐨𝐦𝐦𝕒ή𝒹𝓢 ᗰ𝔢𝕟𝕌  💝♙*\n\n'
 
 
     RaOne.addCommand({pattern: 'ravana ?(.*)', fromMe: td, dontAddCommandList: true}, (async (message, match) => {
@@ -33,7 +33,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                         HANDLER = '.';
                     }
                     CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -63,7 +63,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                             HANDLER = '.';
                         }
                         CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -97,7 +97,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                         HANDLER = '.';
                     }
                     CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -127,7 +127,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                             HANDLER = '.';
                         }
                         CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -161,7 +161,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                         HANDLER = '.';
                     }
                     CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -191,7 +191,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                             HANDLER = '.';
                         }
                         CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -225,7 +225,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                         HANDLER = '.';
                     }
                     CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -255,7 +255,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                             HANDLER = '.';
                         }
                         CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -289,7 +289,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                         HANDLER = '.';
                     }
                     CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                    if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
@@ -319,7 +319,7 @@ if (Config.Lang == 'EN') MTEXT = '\n꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜
                             HANDLER = '.';
                         }
                         CMD_HELP += Config.MENU_H + ' *' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
-                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' ' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                        if (command.desc !== '') CMD_HELP += Config.MENU_E + ' *' + Lang.DESC + ':* ' + command.desc + (command.warn === '' ? '\n\n' : '\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ' + command.warn + '\n\n';
 
