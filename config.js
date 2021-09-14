@@ -61,8 +61,8 @@ module.exports = {
     ZEKS_API: process.env.ZEKS_API === undefined ? 'cjxJIn9eDletRHac3CG6CdvGxFH' : process.env.ZEKS_API,
     LOLUHUMAN_API: process.env.LOLUHUMAN_API === undefined ? '990580a2e31add15990665b0' : process.env.LOLUHUMAN_API,
     OWNERNUM: process.env.OWNERNUM === undefined ? '94714898434' : process.env.OWNERNUM,
-    MENU_HELP_EMOJI: process.env.MENU_HELP_EMOJI === undefined ? '💮' : process.env.MENU_HELP_EMOJI,
-    MENU_EXAMPLE_EMOJI: process.env.MENU_EXAMPLE_EMOJI === undefined ? '💠' : process.env.MENU_EXAMPLE_EMOJI,
+    MENU_H: process.env.MENU_HELP_EMOJI === undefined ? '💮' : process.env.MENU_HELP_EMOJI,
+    MENU_E: process.env.MENU_EXAMPLE_EMOJI === undefined ? '💠' : process.env.MENU_EXAMPLE_EMOJI,
     MENUTEXT: process.env.MENUTEXT === undefined ? '𓂀 ℝ𝕒𝕧𝕒𝕟𝕒 𝔹𝕠𝕥 𝕄𝕖𝕟𝕦 𓂀' : process.env.MENUTEXT,
     BRANCH: 'main',
     HEROKU: {
