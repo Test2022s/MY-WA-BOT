@@ -133,7 +133,8 @@
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false
+            "required": false,
+            "value": "```♧😂  нί丨𝕀 𝔽яĮẸ𝐧𝐃ｓ яᗩ𝕍ᵃŇ卂-𝐛ⓞ𝕋 ⓃⓄⓦ ˢ𝐭𝓲ＬẸ 卂𝔩ι𝓥έ  ♨♞```\n\n*Version:* ```v4.0 Stable```\n\n*Developer:* ```RAVANA_SL_TEAM```\n\n*Youtube channel :* https://www.youtube.com/channel/UC4WaTaXOPPFP3V6sDBogJug\n\n```Ravana_Bot භාවිතා කිරීම ගැන ස්තූතියි.```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
