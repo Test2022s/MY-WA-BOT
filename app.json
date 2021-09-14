@@ -54,7 +54,7 @@
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
-            "value": "^[/.!]"
+            "value": "^[,/.]"
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
