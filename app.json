@@ -114,7 +114,7 @@
             "required": false
         },
         "WORK_TYPE": {
-            "description": "JulieMwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -142,13 +142,11 @@
         },
         "SONG_D": {
             "description": "Customizable song DOWNLOADING message'",
-            "required": true,
-            "value": "*𝙥𝙡𝙯 𝙬𝙖𝙞𝙩 𝙧𝙖𝙫𝙖𝙣𝙖 𝙗𝙤𝙩 𝙨𝙚𝙖𝙧𝙘𝙝𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙨𝙤𝙣𝙜*"
+            "required": false
         },
         "SONG_UP": {
             "description": "Customizable song UPLOADING message",
-            "required": true,
-            "value": "*꧁•٭𝚙𝚕𝚣 𝚠𝚊𝚒𝚝𝚎 𝚛𝚊𝚟𝚊𝚗𝚊 𝚋𝚘𝚝 𝚞𝚙𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚢𝚘𝚞𝚛 𝚜𝚘𝚗𝚐 𝚚𝚞𝚒𝚌𝚔𝚕𝚢٭•꧂*"
+            "required": false
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
@@ -182,18 +180,15 @@
         },
         "VIDEO_DOWN": {
             "description": "Customizable video DOWNLOADING message",
-            "required": true,
-            "value": "*(づ｡◕‿‿◕｡)づ яαναηα вσт ∂σωηℓσα∂ιηg уσυя νι∂єσ ٩(˘◡˘)۶*"
+            "required": false
         },
         "VIDEO_UP": {
             "description": "Customizable video UPLOADING message",
-            "required": true,
-            "value": "*(づ｡◕‿‿◕｡)づ яαναηα вσт υρℓσα∂ιηg уσυя νι∂єσ ٩(˘◡˘)۶*"
+            "required": false
         },
         "VID_CP": {
             "description": "Caption for video UPLOADING image",
-            "required": true,
-            "value": "*♣💎  Ř𝕒V𝓪Ｎ𝐚 𝔂ŤⒹ𝕃  ♜✌*"
+            "required": false
         },
         "OWNERNUM": {
             "description": "Type bot owner number.",
@@ -214,8 +209,7 @@
         },
         "MENUTEXT": {
             "description": "You can customiz Ravana Bot command menu text",
-            "required": false,
-            "value": "𓂀 ℝ𝕒𝕧𝕒𝕟𝕒 𝔹𝕠𝕥 𝕄𝕖𝕟𝕦 𓂀"
+            "required": false
         },
         "MENU_HELP_EMOJI": {
             "description": "You can customiz Ravana Bot command menu help emoji ❗NOTE use emoji only.",
