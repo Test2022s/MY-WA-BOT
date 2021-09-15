@@ -8,7 +8,7 @@ if (Config.WORKTYPE == 'private') {
 
      RAVANA.addCommand({ pattern: 'rapkmod ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
-        await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n║  *🤴RAVANA MOD STORE🤴*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n*මෙමෙ ඇප් සියල්ල බොට් හරහා ලබාගත හැක.*\n\n*|🔰RAVANA WA MOD v1 - .rawamo*\n\n*|🔰Video Marker v1.61 premium - .ravm*\n\n*|🔰VivaVideo 8.11.3 p - .ravv*\n\n*|🔰Piscart gold full v.17.3.1  - .rapa*\n\n*|🔰PLAYit v2.5.8.14 vip - .rapy*\n\n*|🔰Dual Space Lite v3.1.1 vip - .rads*\n\n*|🔰Glitch video efct pro- .ragev*\n\n*|🔰Photo editer v6.9 pro - .rape*\n\n\n*තවත් ඇප් ඉදිරියේදී එකතුවේ..*\n________________________");    
+        await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n║  *🤴RAVANA MOD STORE🤴*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n*මෙමෙ ඇප් සියල්ල බොට් හරහා ලබාගත හැක.*\n\n*|🔰RAVANA WA MOD v1 - .rawamo*\n\n*|🔰Video Marker v1.61 premium - .ravm*\n\n*|🔰VivaVideo 8.11.3 p - .ravv*\n\n*|🔰Piscart gold full v.17.3.1  - .rapa*\n\n*|🔰PLAYit v2.5.8.14 vip - .rapy*\n\n*|🔰Dual Space Lite v3.1.1 vip - .rads*\n\n*|🔰Glitch video efct pro- .ragve*\n\n*|🔰Photo editer v6.9 pro - .rape*\n\n\n*තවත් ඇප් ඉදිරියේදී එකතුවේ..*\n________________________");    
 
     }));
 
@@ -82,7 +82,7 @@ if (Config.WORKTYPE == 'public') {
 
      RAVANA.addCommand({ pattern: 'rapkmod ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
-        await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n║  *🤴RAVANA MOD STORE🤴*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n*මෙමෙ ඇප් සියල්ල බොට් හරහා ලබාගත හැක.*\n\n*|🔰RAVANA WA MOD v1 - .rawamo*\n\n*|🔰Video Marker v1.61 premium - .ravm*\n\n*|🔰VivaVideo 8.11.3 p - .ravv*\n\n*|🔰Piscart gold full v.17.3.1  - .rapa*\n\n*|🔰PLAYit v2.5.8.14 vip - .rapy*\n\n*|🔰Dual Space Lite v3.1.1 vip - .rads*\n\n*|🔰Glitch video efct pro- .ragev*\n\n*|🔰Photo editer v6.9 pro - .rape*\n\n\n*තවත් ඇප් ඉදිරියේදී එකතුවේ..*\n________________________");    
+        await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n║  *🤴RAVANA MOD STORE🤴*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n*මෙමෙ ඇප් සියල්ල බොට් හරහා ලබාගත හැක.*\n\n*|🔰RAVANA WA MOD v1 - .rawamo*\n\n*|🔰Video Marker v1.61 premium - .ravm*\n\n*|🔰VivaVideo 8.11.3 p - .ravv*\n\n*|🔰Piscart gold full v.17.3.1  - .rapa*\n\n*|🔰PLAYit v2.5.8.14 vip - .rapy*\n\n*|🔰Dual Space Lite v3.1.1 vip - .rads*\n\n*|🔰Glitch video efct pro- .ragve*\n\n*|🔰Photo editer v6.9 pro - .rape*\n\n\n*තවත් ඇප් ඉදිරියේදී එකතුවේ..*\n________________________");    
 
     }));
 
