@@ -28,7 +28,7 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? 'Ravana-Sl-Team' : process.env.OWNER_NAME,
-    CP_TEXT: process.env.CP_TEXT === undefined ? '꧁༺ʍǟɖɛ ɮʏ ʀǟʋǟռǟ ȶɦɛ ɮօȶ༻꧂\n𓂀 𝕝𝕖𝕘𝕖𝕟𝕕 𝕓𝕠𝕥 𝕠𝕗 𝕤𝕣𝕚 𝕝𝕒𝕟𝕜𝕒 𓂀' : process.env.CP_TEXT,
+    CAPTION_KEY: process.env.CAPTION_KEY === undefined ? '꧁༺ʍǟɖɛ ɮʏ ʀǟʋǟռǟ ȶɦɛ ɮօȶ༻꧂\n𓂀 𝕝𝕖𝕘𝕖𝕟𝕕 𝕓𝕠𝕥 𝕠𝕗 𝕤𝕣𝕚 𝕝𝕒𝕟𝕜𝕒 𓂀' : process.env.CAPTION_KEY,
     SONG_UP: process.env.SONG_UP === undefined ? '꧁•٭𝚙𝚕𝚣 𝚠𝚊𝚒𝚝𝚎 𝚛𝚊𝚟𝚊𝚗𝚊 𝚋𝚘𝚝 𝚞𝚙𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚢𝚘𝚞𝚛 𝚜𝚘𝚗𝚐 𝚚𝚞𝚒𝚌𝚔𝚕𝚢٭•꧂' : process.env.SONG_UP,
     VIDEO_DOWN: process.env.VIDEO_DOWN === undefined ? '(づ｡◕‿‿◕｡)づ яαναηα вσт ∂σωηℓσα∂ιηg уσυя νι∂єσ ٩(˘◡˘)۶' : process.env.VIDEO_DOWN,
     VID_CP: process.env.VID_CP === undefined ? '♣💎  Ř𝕒V𝓪Ｎ𝐚 𝔂ŤⒹ𝕃  ♜✌' : process.env.VID_CP,
