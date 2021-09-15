@@ -66,7 +66,7 @@
             "required": true,
             "value": "true"
         },
-        "CP_TEXT": {
+        "CAPTION_KEY": {
             "description": "Caption for images and videos",
             "required": false
         },
