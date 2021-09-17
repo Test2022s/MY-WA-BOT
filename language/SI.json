@@ -229,7 +229,7 @@
             "TAGALL_DESC": "Tags everyone in the group.",
             "ADMİN": "*I am not admin in this group!*",
             "SCAN": "Checks whether the entered number is registered on WhatApp.",
-            "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
+            "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 94xxxx```",
             "SUC": "*Numbered Person Uses WhatsApp! ✅*",
             "UNSUC": "*Numbered Person Does Not Use WhatsApp! ❌*",
             "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
