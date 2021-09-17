@@ -27,7 +27,7 @@
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
             "DELETED": "*✅ Module successfully deleted!*",
-            "WARN": "Get plugins only from t.me/remasterplugin channel."
+            "WARN": "Get plugins only from https://t.me/SLTECHCOLLEGE channel."
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
@@ -229,7 +229,7 @@
             "TAGALL_DESC": "Tags everyone in the group.",
             "ADMİN": "*I am not admin in this group!*",
             "SCAN": "Checks whether the entered number is registered on WhatApp.",
-            "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
+            "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 94xxxx```",
             "SUC": "*Numbered Person Uses WhatsApp! ✅*",
             "UNSUC": "*Numbered Person Does Not Use WhatsApp! ❌*",
             "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
