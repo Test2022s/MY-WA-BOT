@@ -10,7 +10,7 @@ if (fs.existsSync('./language/' + Config.LANG + '.json')) {
     var json = JSON.parse(fs.readFileSync('./language/' + Config.LANG + '.json'));
 } else {
     console.log(
-        chalk.red.bold('🅾 ඔබ අවලංගු භාෂාවක් ඇතුළු කළා. සිංහල භාෂාව තෝරා ගන්නා ලදි.\n🅾 You entered an invalid language. SINHALA language was chosen.')
+        chalk.red.bold('5️⃣ Error\n🅾 ඔබ අවලංගු භාෂාවක් ඇතුළු කළා. සිංහල භාෂාව තෝරා ගන්නා ලදි.\n🅾 You entered an invalid language. SINHALA language was chosen.')
     );
 
     var json = JSON.parse(fs.readFileSync('./language/SI.json'));
