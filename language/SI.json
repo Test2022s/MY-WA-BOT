@@ -5,12 +5,12 @@
     "AUTHOR": "HACKER RAVANA",
     "STRINGS": {
         "__RavanaBot": {
-            "EXAMPLE": "Eg:- ",
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
-            "NOT_FOUND": "*I couldnt find a command like this*",
-            "WARN": "Warn"
+            "EXAMPLE": "උ දුා:- ",
+            "COMMAND": "විධානය",
+            "DESC": "විස්තර",
+            "EXAMPLE": "උදාහරණ",
+            "NOT_FOUND": "*මට මේ වගේ විධානයක් සොයා ගන්න බැරි වුනා*",
+            "WARN": "අනතුරු ඇගව්මයි"
         },
         "_plugin": {
             "INSTALL_DESC": "බාහිර ප්ලගීන ස්ථාපනය කරන්න.",
