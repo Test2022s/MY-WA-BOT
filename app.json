@@ -136,6 +136,11 @@
             "required": false,
             "value": "default"
         },
+        "MENU_LOGO": {
+            "description": "You Can Customiz Ravana-Bot Menu Logo. get image links use this site => https://telegra.ph/",
+            "required": false,
+            "value": "https://telegra.ph/file/196687b452f1a1a49079c.jpg"
+        },
         "SONG_D": {
             "description": "Customizable song DOWNLOADING message'",
             "required": false
