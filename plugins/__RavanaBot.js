@@ -4,6 +4,7 @@
 const RaOne = require('../events');
 const Config = require('../config');
 const fs = require('fs');
+const axios = require('axios');
 const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 const Lang = Language.getString('__RavanaBot');
