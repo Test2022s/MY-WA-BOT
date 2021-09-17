@@ -64,6 +64,7 @@ module.exports = {
     MENU_H: process.env.MENU_HELP_EMOJI === undefined ? '💮' : process.env.MENU_HELP_EMOJI,
     MENU_E: process.env.MENU_EXAMPLE_EMOJI === undefined ? '💠' : process.env.MENU_EXAMPLE_EMOJI,
     MENUTEXT: process.env.MENUTEXT === undefined ? '𓂀 ℝ𝕒𝕧𝕒𝕟𝕒 𝔹𝕠𝕥 𝕄𝕖𝕟𝕦 𓂀' : process.env.MENUTEXT,
+    MENU_LOGO: process.env.MENU_LOGO === undefined ? 'https://telegra.ph/file/196687b452f1a1a49079c.jpg' : process.env.MENU_LOGO,
     BRANCH: 'main',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
