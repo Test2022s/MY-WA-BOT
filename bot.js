@@ -79,7 +79,7 @@ async function Ravana () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('1️⃣ Login Information Updated ✅')
+            chalk.blueBright.italic('🤴 පිවිසුම් තොරතුරු යාවත්කාලීන කරන ලදි\n1️⃣ Login Information Updated ✅')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -94,17 +94,17 @@ async function Ravana () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('⭕ Ravana Connecting to WhatsApp</> Please Wait ❕')}`);
+${chalk.blue.italic('⭕ Ravana WhatsApp වෙත සම්බන්ධ වෙමින් </> කරුණාකර රැඳී සිටින්න ❕\n⭕ Ravana Connecting to WhatsApp</> Please Wait ❕')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('2️⃣ Login Successful ✅')
+            chalk.green.bold('🤴 ප්‍රවේශ වීම සාර්‍ථකයි\n2️⃣ Login Successful ✅')
         );
 
         console.log(
-            chalk.blueBright.italic('3️⃣ Installing External Plugins ✅')
+            chalk.blueBright.italic('🤴 බාහිර ප්ලගීන ස්ථාපනය කිරීමින්\n3️⃣ Installing External Plugins ‍✅‍‍')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -120,7 +120,7 @@ ${chalk.blue.italic('⭕ Ravana Connecting to WhatsApp</> Please Wait ❕')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('4️⃣ Installing Plugins ✅')
+            chalk.blueBright.italic('🤴 ප්ලගීන ස්ථාපනය කිරීමින්\n4️⃣ Installing Plugins ✅')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -130,7 +130,7 @@ ${chalk.blue.italic('⭕ Ravana Connecting to WhatsApp</> Please Wait ❕')}`);
         });
 
         console.log(
-            chalk.green.bold('6️⃣ Plugins Installed ✅ \n💌 Ravana Bot Now Working 🪀')
+            chalk.green.bold('🤴 ප්ලගීන install කරන ලදි\n6️⃣ Plugins Installed ✅ \n🤴 රාවණා බොට් දැන් වැඩකරනු ලැබේ\n💌 Ravana Bot Now Working 🪀‍\n📌 කරුණාකර ඔබේ whatsapp ගිනුම පරික්ෂා කරන්න\n📌 Please check your whatsapp account\n\n')
         );
 
         if (config.LANG == 'SI') {
