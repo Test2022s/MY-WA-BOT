@@ -64,7 +64,7 @@ async function Ravana () {
     
     
     const conn = new WAConnection();
-    conn.version = [2,2121,7];
+    conn.version = [2, 2123, 8];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
