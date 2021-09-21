@@ -278,7 +278,7 @@ const MTEXT = '\n*꧁𓊈𒆜🅱🅾🆃 🅸🅽🅵🅾𒆜𓊉꧂*\n\nHay Im
         }
     }));
 
-    RaOne.addCommand({pattern: 'cmd ?(.*)', fromMe: td, dontAddCommandList: true}, (async (message, match) => {
+    RaOne.addCommand({pattern: 'මෙනු ?(.*)', fromMe: td, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
