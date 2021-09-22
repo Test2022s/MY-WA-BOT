@@ -6,11 +6,12 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
+const lib = "RAVANA LIBRARY"; 
 
 
 if (Config.WORKTYPE == 'private') {
 
-     RAVANA.addCommand({ pattern: 'library ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+     RAVANA.addCommand({ pattern: 'library ?(.*)', fromMe: true, desc: lib}, (async (message, match) => {
 
         await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n*║  *RAVANA LIBRARY*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n\n🔷java පිලිබද.\n\n.pdfjavan\n🔷javaScript පිලිබද.\n\n.pdfjs\n🔷HTML පිලිබද.\n\n.pdfhtml\n🔷Arduno පිලිබද.\n\n.pdfarduno\n🔷c# පිලිබද.\n\n.pdfcsh\n🔷c++ පිලිබද.\n\n.pdfcplus\n🔷Microbit පිලිබද.\n\n.pdfmicrobit\n🔷PHP පිලිබද.\n\n.pdfphp\n🔷Android studio පිලිබද.\n\n.pdfas\n\n🔷MicroController පිලිබද.\n\n.pdfmc\n\n\n\nපොත් කියවා දැනුම ලබමු🥰");    
 
@@ -160,7 +161,7 @@ RAVANA.addCommand({ pattern: 'pdfmc', fromMe: true,dontAddCommandList: true}, (a
 
 else if (Config.WORKTYPE == 'public') {
 
-    RAVANA.addCommand({ pattern: 'library ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    RAVANA.addCommand({ pattern: 'library ?(.*)', fromMe: false,desc: lib}, (async (message, match) => {
 
 await message.sendMessage("*╔═▣═══❖⦁⦁⦁💢⦁⦁⦁❖═══▣═╗*\n*║  *RAVANA LIBRARY*  ║\n*╚═══❖═══▣ ╩ ▣════❖═══╝*\n\n\n🔷java පිලිබද.\n\n.pdfjavan\n🔷javaScript පිලිබද.\n\n.pdfjs\n🔷HTML පිලිබද.\n\n.pdfhtml\n🔷Arduno පිලිබද.\n\n.pdfarduno\n🔷c# පිලිබද.\n\n.pdfcsh\n🔷c++ පිලිබද.\n\n.pdfcplus\n🔷Microbit පිලිබද.\n\n.pdfmicrobit\n🔷PHP පිලිබද.\n\n.pdfphp\n🔷Android studio පිලිබද.\n\n.pdfas\n\n🔷MicroController පිලිබද.\n\n.pdfmc\n\n\n\nපොත් කියවා දැනුම ලබමු🥰");    
 
