@@ -12,8 +12,8 @@ const  Anim = "Get animation videos";
 
         var r_text = new Array ();
 
-        r_text[0] = "https://dapuhy-api.herokuapp.com/api/anime/storyanime?apikey=UO0AST2FICHDgVP";
-        r_text[1] = "https://dapuhy-api.herokuapp.com/api/anime/storyanime?apikey=UO0AST2FICHDgVP";
+        r_text[0] = "https://dapuhy-api.herokuapp.com/api/anime/storyanime?apikey=SSSSSSS1D";
+        r_text[1] = "https://dapuhy-api.herokuapp.com/api/anime/storyanime?apikey=SSSSSSS1D";
 
         var i = Math.floor(2*Math.random())
 
