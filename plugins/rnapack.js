@@ -31,7 +31,7 @@ Asena.addCommand({pattern: 'nikash', fromMe: false, desc: Lang.WP}, (async (mess
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮RAVANA RNA LOGO PACK💮━━━━━⛦
 
 
-╚═════════════RAVANA(.)
+╚═════════════RAVANA🐱‍🏍(.)
 
 
 
