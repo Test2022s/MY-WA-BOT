@@ -72,28 +72,28 @@
             "AGO": " පෙර```"
         },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "*Give me a code!*"
+            "TERM_DESC": "සේවාදායකයේ කවචය මත විධානය ක්‍රියාත්මක කිරීමට ඉඩ සලසයි.",
+            "GIVE_ME_CODE": "*මට කේතයක් දෙන්න!*"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "පිළිතුරු දුන් පණිවිඩ nekobin.com වෙත එක් කෙරේ.",
+            "NEED_REPLY": "```කරුණාකර පණිවිඩයකට පිළිතුරු දෙන්න!```",
+            "MUST_TEXT": "```ඕනෑම පණිවිඩයකට කරුණාකර පිළිතුරු දෙන්න```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart RAVaNA",
-            "RESTART_MSG": "```🔁 Restarting RAVaNA...```",
-            "SHUTDOWN_DESC": "Shutdown RAVaNA",
-            "SHUTDOWN_MSG": "```Shutting down RAVaNA 😴👋```",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "GR_DEL": "*Greetings Message Set!*\n*Type* ```.goodbye delete & .welcome delete``` *to remove!*",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Either Key or Value is missing```",
+            "RESTART_DESC": "නැවත ආරම්භ RAVaNA",
+            "RESTART_MSG": "```🔁 නැවත ආරම්භ කිරීම RAVaNA...```",
+            "SHUTDOWN_DESC": "වසා දමන්න RAVaNA",
+            "SHUTDOWN_MSG": "```වසා දමමින් RAVaNA 😴👋```",
+            "DYNO_DESC": "හෙරෝකු ඩයිනෝ භාවිතය පරික්ෂා කරන්න",
+            "DYNO_TOTAL": "```මුළු කෝටාව```",
+            "DYNO_USED": "```භාවිතා කළ කෝටාව```",
+            "PERCENTAGE": "```ප්රතිශතය```",
+            "DYNO_LEFT": "```ඉතිරි```",
+            "GR_DEL": "*සුභ පැතුම් පණිවිඩ කට්ටලය!*\n*Type* ```.ආයුබෝවන් මකන්න & සුභ පැතුම් මකන්න``` *ඉවත් කිරීමට!*",
+            "SETVAR_DESC": "හෙරෝකු වින්‍යාස වර්‍ගය සකසන්න",
+            "SET_SUCCESS": "සාර්ථකව සකසා ඇත ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```යතුර හෝ වටිනාකම නැති වී ඇත```",
             "INVALID": "```Invalid key:value format```",
             "GETVAR_DESC": "Get heroku config var",
             "DELVAR_DESC": "Delete heroku config var",
