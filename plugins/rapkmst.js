@@ -15,7 +15,7 @@ if (Config.WORKTYPE == 'private') {
 
 RAVANA.addCommand({ pattern: 'rawamo', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62623`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85744`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'RAVANA WA MOD v1.apk', mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -23,7 +23,7 @@ RAVANA.addCommand({ pattern: 'rawamo', fromMe: true,dontAddCommandList: true}, (
 
 RAVANA.addCommand({ pattern: 'ravm', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62623`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85756`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Video Marker v1.61 premium.apk', mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -31,7 +31,7 @@ RAVANA.addCommand({ pattern: 'ravm', fromMe: true,dontAddCommandList: true}, (as
 
 RAVANA.addCommand({ pattern: 'ravv', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62759`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85746`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'VivaVideo 8.11.3 p.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -47,7 +47,7 @@ RAVANA.addCommand({ pattern: 'rapa', fromMe: true,dontAddCommandList: true}, (as
 
 RAVANA.addCommand({ pattern: 'rapy', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62768`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85750`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'PLAYit v2.5.8.14 vip.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -55,7 +55,7 @@ RAVANA.addCommand({ pattern: 'rapy', fromMe: true,dontAddCommandList: true}, (as
 
 RAVANA.addCommand({ pattern: 'rads', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62773`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85753`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Dual Space Lite v3.1.1 vip.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -63,7 +63,7 @@ RAVANA.addCommand({ pattern: 'rads', fromMe: true,dontAddCommandList: true}, (as
 
 RAVANA.addCommand({ pattern: 'ragve', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62771`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85752`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Glitch video efct pro.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -71,7 +71,7 @@ RAVANA.addCommand({ pattern: 'ragve', fromMe: true,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'rape', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62774`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85758`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Photo editer v6.9 pro.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -89,7 +89,7 @@ if (Config.WORKTYPE == 'public') {
 
 RAVANA.addCommand({ pattern: 'rawamo', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62623`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85744`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'RAVANA WA MOD v1.apk', mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -97,7 +97,7 @@ RAVANA.addCommand({ pattern: 'rawamo', fromMe: false,dontAddCommandList: true}, 
 
 RAVANA.addCommand({ pattern: 'ravm', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62623`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85756`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Video Marker v1.61 premium.apk', mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -105,7 +105,7 @@ RAVANA.addCommand({ pattern: 'ravm', fromMe: false,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'ravv', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-        var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62759`, { responseType: 'arraybuffer' })
+        var webimage = await axios.get(`https://netfile2link.herokuapp.com/85746`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'VivaVideo 8.11.3 p.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -113,7 +113,7 @@ RAVANA.addCommand({ pattern: 'ravv', fromMe: false,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'rapa', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62767`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85747`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Piscart gold full v.17.3.1 g.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -121,7 +121,7 @@ RAVANA.addCommand({ pattern: 'rapa', fromMe: false,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'rapy', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62768`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85750`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'PLAYit v2.5.8.14 vip.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -129,7 +129,7 @@ RAVANA.addCommand({ pattern: 'rapy', fromMe: false,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'rads', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62773`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85753`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Dual Space Lite v3.1.1 vip.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -137,7 +137,7 @@ RAVANA.addCommand({ pattern: 'rads', fromMe: false,dontAddCommandList: true}, (a
 
 RAVANA.addCommand({ pattern: 'ragve', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62771`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85752`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Glitch video efct pro.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
@@ -145,7 +145,7 @@ RAVANA.addCommand({ pattern: 'ragve', fromMe: false,dontAddCommandList: true}, (
 
 RAVANA.addCommand({ pattern: 'rape', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
-      var webimage = await axios.get(`https://netfiletolink.herokuapp.com/62774`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://netfile2link.herokuapp.com/85758`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(webimage.data), MessageType.document, {filename: 'Photo editer v6.9 pro.apk',  mimetype: 'application/vnd.android.package-archive', quoted: message.data})
         
