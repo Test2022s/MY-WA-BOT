@@ -10,7 +10,7 @@ const axios = require('axios');
 
 RAVANA.addCommand({ pattern: '4', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/42938`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/85804`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.mp4,  quoted: message.data });
 
@@ -18,7 +18,7 @@ RAVANA.addCommand({ pattern: '4', fromMe: true,dontAddCommandList: true}, (async
 
 RAVANA.addCommand({ pattern: '5', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/42386`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/85765`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.mp4,  quoted: message.data });
 
@@ -26,7 +26,7 @@ RAVANA.addCommand({ pattern: '5', fromMe: true,dontAddCommandList: true}, (async
 
 RAVANA.addCommand({ pattern: '6', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
-    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/42389`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://netfiletolink.herokuapp.com/85764`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.mp4,  quoted: message.data });
 
