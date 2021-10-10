@@ -14,7 +14,7 @@ const gk = "සාමාන්‍ය දෑනීමට";
 
 //private
 
-RAVANA.addCommand({ pattern: 'knowledge ?(.*)', fromMe: true, desc: lib}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'knowledge ?(.*)', fromMe: true, desc: gk}, (async (message, match) => {
 
 	var respoimage = await axios.get(`https://telegra.ph/file/5929ee1dbf1109c562b04.jpg`, { responseType: 'arraybuffer' })
 
@@ -583,7 +583,7 @@ RAVANA.addCommand({pattern: 'gkr10 ?(.*)', fromMe: true, dontAddCommandList: tru
 
 //public
 
-RAVANA.addCommand({ pattern: 'knowledge ?(.*)', fromMe: false, desc: lib}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'knowledge ?(.*)', fromMe: false, desc: gk}, (async (message, match) => {
 
 	var respoimage = await axios.get(`https://telegra.ph/file/5929ee1dbf1109c562b04.jpg`, { responseType: 'arraybuffer' })
 
