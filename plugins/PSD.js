@@ -1,39 +1,43 @@
+//THIS PLUGIN OWNER IS BUDI X
+// Official plugin by https://github.com/MrChaby
+// Do not copy this
+//RAVANA 2021 | SL RAVANA
+
+
+
+
 let RAVANA = require('../events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let axios = require('axios');
 let Config = require('../config');
 
-let GD = "DOWNLOAD APK PLAY STORE"
-let APD = "DOWNLOADING..."
-let APN = "NEED LINK"
-let APU = "*UPLOADING...*"
-let APF = "*⚙️CAN'T FIND☹️*"
+let desc = "Download in playstore"
+let need = "\n\n*Type playstore Apk pkg name*\n\n"
+let down = "\n\n*Downloading Apk*\n\n"
+let up = "\n\n*Uploading*\n\n"
+let eror = "\n\n*Can't find apk*\n\n"
 
-let dt = Config.WORKTYPE == 'public' ? false : true
+let hi = Config.WORKTYPE == 'public' ? false: true
 
+    RAVANA.addCommand({ pattern: 'apk ?(.*)', fromMe: hi, desc: desc,  deleteCommand: false}, async (message, match) => {
 
- RAVANA.addCommand({ pattern: 'papk ?(.*)', fromMe: dt, desc: GD,  deleteCommand: false}, async (message, match) => {
-
+        const pkg = match[1]
     
-        if (match[1] === '') return await message.client.sendMessage(message.jid,APN,MessageType.text)
-        await message.client.sendMessage(message.jid,APD,MessageType.text);
+        if (!pkg) return await message.client.sendMessage(message.jid,need,MessageType.text)
+        await message.client.sendMessage(message.jid,down,MessageType.text);
         await axios
-          .get('https://api.lolhuman.xyz/api/apkdownloader?apikey=411776707c9e94db8b656048&package=${match[1]}')
+          .get(`https://api.lolhuman.xyz/api/apkdownloader?apikey=411776707c9e94db8b656048&package=${encodeURIComponent(pkg)}`)
           .then(async (response) => {
-            let {
-                apk_link,
-                apk_name,
-            } = response.data
+            const {
+              apk_link,
+            } = response.data.result
     
-            let hacker = await axios.get(apk_link, {responseType: 'arraybuffer'})
+            var APKDATA = await axios.get(apk_link, {responseType: 'arraybuffer'})
     
-            await message.client.sendMessage(message.jid,APU,MessageType.text);
-            await message.client.sendMessage(message.jid,Buffer.from(hacker.data), MessageType.document, {filename: apk_name, mimetype: 'application/vnd.android.package-archive', quoted: message.data})
-        })
+            await message.sendMessage(Buffer.from(APKDATA.data), MessageType.document, {filename: 'this_is_your_application', mimetype: 'application/vnd.android.package-archive', quoted: message.data})
+          })
         .catch(
-          async (err) => await message.client.sendMessage(message.jid,APF,MessageType.text, {quoted: message.data}),
+          async (err) => await message.client.sendMessage(message.jid,eror,MessageType.text, {quoted: message.data}),
         )
       },
-    )
-    
-    //filename: apk_name, mimetype: 'application/vnd.android.package-archive',
+    );
