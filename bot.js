@@ -64,7 +64,7 @@ async function Ravana () {
     
     
     const conn = new WAConnection();
-    conn.version = [2,2123,8];
+    conn.version = [2, 2140, 12];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
@@ -91,7 +91,7 @@ async function Ravana () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.green.bold('SL')}${chalk.blue.bold('RAVANA')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('⭕ Ravana WhatsApp වෙත සම්බන්ධ වෙමින් </> කරුණාකර රැඳී සිටින්න ❕\n⭕ Ravana Connecting to WhatsApp</> Please Wait ❕\n\n')}`);
