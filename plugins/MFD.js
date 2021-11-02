@@ -20,7 +20,7 @@ let dt = Config.WORKTYPE == 'public' ? false : true
         if (match[1] === '') return await message.client.sendMessage(message.jid,APN,MessageType.text)
         await message.client.sendMessage(message.jid,APD,MessageType.text);
         await axios
-          .get('https://api.dapuhy.ga/api/socialmedia/mediafire?url=${match[1]}')
+          .get('https://api.dapuhy.ga/api/socialmedia/mediafire?url=${match[1]}&apikey=xr3xEdCYOb4hmMD')
           .then(async (response) => {
             let {
               link,
