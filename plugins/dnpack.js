@@ -1,3 +1,6 @@
+//RAVANA 2021 | SL RAVANA TEAM
+//PLUGIN BY HACKER RAVANA AND HACKER MARAYA
+
 const RAVANA = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -88,7 +91,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dshiny?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dshiny?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -98,7 +101,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/graffiticolor?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/graffiticolor?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -108,7 +111,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/zombie3d?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/zombie3d?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -118,7 +121,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wordgreen?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wordgreen?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -128,7 +131,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/juventus?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/juventus?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -138,7 +141,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/paulscholes?text1=RAVANAa&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/paulscholes?text1=RAVANAa&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -149,7 +152,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/denimembroidery?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/denimembroidery?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -159,7 +162,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/nightmare?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/nightmare?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -169,7 +172,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/arrowsigns?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/arrowsigns?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -179,7 +182,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -189,7 +192,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker2?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker2?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -199,7 +202,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/ad?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/ad?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -209,7 +212,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/rugbyball?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/rugbyball?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -219,7 +222,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photooxy/butterfly?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photooxy/butterfly?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -230,7 +233,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -241,7 +244,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -252,7 +255,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/birthdaycake?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/birthdaycake?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -263,7 +266,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/galaxybat?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/galaxybat?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -273,7 +276,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wooden3d?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wooden3d?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -283,7 +286,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/glow?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/glow?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -293,7 +296,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/pubgmascot?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/pubgmascot?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -303,7 +306,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dcrack?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dcrack?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -313,7 +316,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/greenbrush?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/greenbrush?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -323,7 +326,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/hotmetalic?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/hotmetalic?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -333,7 +336,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/summerbeach2?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/summerbeach2?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -343,7 +346,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/clouds?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/clouds?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -353,7 +356,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: true, desc: dnpack}, (async (messa
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/writingchalk?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/writingchalk?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -442,7 +445,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dshiny?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dshiny?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -452,7 +455,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/graffiticolor?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/graffiticolor?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -462,7 +465,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/zombie3d?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/zombie3d?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -472,7 +475,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wordgreen?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wordgreen?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -482,7 +485,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/juventus?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/juventus?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -492,7 +495,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/paulscholes?text1=RAVANAa&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/paulscholes?text1=RAVANAa&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -503,7 +506,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/denimembroidery?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/denimembroidery?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -513,7 +516,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/nightmare?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/nightmare?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -523,7 +526,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/arrowsigns?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/arrowsigns?text1=RAVANA&text2=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -533,7 +536,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -543,7 +546,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker2?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/hacker2?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -553,7 +556,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/ad?img=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/canvas/ad?img=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -563,7 +566,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/rugbyball?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photofunia/rugbyball?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -573,7 +576,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photooxy/butterfly?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/photooxy/butterfly?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -584,7 +587,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -595,7 +598,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/startsnight?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -606,7 +609,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/birthdaycake?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/birthdaycake?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -617,7 +620,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/galaxybat?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/galaxybat?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -627,7 +630,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wooden3d?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/wooden3d?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -637,7 +640,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/glow?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/glow?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -647,7 +650,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/pubgmascot?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/pubgmascot?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -657,7 +660,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dcrack?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/3dcrack?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -667,7 +670,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/greenbrush?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/greenbrush?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -677,7 +680,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/hotmetalic?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/hotmetalic?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -687,7 +690,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/summerbeach2?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/summerbeach2?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -697,7 +700,7 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/clouds?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/clouds?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
@@ -707,9 +710,8 @@ RAVANA.addCommand({pattern: 'dnpack', fromMe: false, desc: dnpack}, (async (mess
 
         if (match[1] === '') return await message.sendMessage(lol);
 
-        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/writingchalk?text=${encodeURIComponent(match[1])}&apikey=ChLCG1FaXibNn1B`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://dapuhy-api.herokuapp.com/api/ephoto/writingchalk?text=${encodeURIComponent(match[1])}&apikey=xr3xEdCYOb4hmMD`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CP_TEXT})
 
     }));                       
-
