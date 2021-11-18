@@ -21,7 +21,7 @@ RAVANA.addCommand({ pattern: 'tiktok ?(.*)', fromMe: false, dontAddCommandList: 
         await message.client.sendMessage(message.jid, down, MessageType.text)
 
         await axios
-          .get(`https://api.dapuhy.ga/api/socialmedia/tiktoknowm?url=${userName}&apikey=xr3xEdCYOb4hmMD`)
+          .get(`https://api.dapuhy.ga/api/socialmedia/tiktoknowm?url=${userName}&apikey=oVJfX5of9OfSXH5`)
           .then(async (response) => {
             const {
               server_1,
