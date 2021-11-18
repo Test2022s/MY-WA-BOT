@@ -21,11 +21,11 @@ let dt = Config.WORKTYPE == 'public' ? false : true
           .get('https://api.zeks.me/api/gdbypass?apikey=at1eG0ywf4cJZEKxJUAxx5TUr2b&url=${match[1]}')
           .then(async (response) => {
             let {
-              download_link,
+              direct_download,
               file_name,
             } = response.data
     
-            let hacker = await axios.get(download_link, {responseType: 'arraybuffer'})
+            let hacker = await axios.get(direct_download, {responseType: 'arraybuffer'})
     
             await message.client.sendMessage(message.jid,APU,MessageType.text);
             await message.client.sendMessage(message.jid,Buffer.from(hacker.data), MessageType.document, {filename: file_name, mimetype: 'application/vnd.android.package-archive', quoted: message.data})
