@@ -134,10 +134,10 @@ ${chalk.blue.italic('⭕ Ravana WhatsApp වෙත සම්බන්ධ වෙ�
         );
 
         if (config.LANG == 'SI') {
-            await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/r2.jpg"), MessageType.image, { caption: `☮ Ravana Bot Now Working 💌\n\n👋 Hay ${conn.user.name} welcome to Ravana bot 💗🙌\n\n🔮 _කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි. ⚙ ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*☮ RAVANA Bot  භාවිතා කිරීම ගැන ස්තුතියි 💌*`});
+            await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/r2.jpg"), MessageType.image, { caption: `☮ Ravana Bot Now Working 💌\n\n👋 Hay ${conn.user.name} welcome to Ravana bot 💗🙌\n\nJoin Our Bot Supported Group - https://chat.whatsapp.com/EP2nT5GLrehBOYQAx0PJAm \n\n🔮 _කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි. ⚙ ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*☮ RAVANA Bot  භාවිතා කිරීම ගැන ස්තුතියි 💌*`});
             
         } else {
-            await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/r2.jpg"), MessageType.image, { caption: `☮ Ravana Bot Now Working 💌\n\n👋 Hay ${conn.user.name} welcome to Ravana bot 💗🙌\n\n🔮 _Please do not try plugins here. This is your login number. ⚙You can try the command in any chat :)_\n\n*💗 Thank You For Using Ravana Bot 💌`});
+            await conn.sendMessage(conn.user.jid, fs.readFileSync("./rimg/r2.jpg"), MessageType.image, { caption: `☮ Ravana Bot Now Working 💌\n\n👋 Hay ${conn.user.name} welcome to Ravana bot 💗🙌\n\nJoin Our Bot Supported Group - https://chat.whatsapp.com/EP2nT5GLrehBOYQAx0PJAm \n\n🔮 _Please do not try plugins here. This is your login number. ⚙You can try the command in any chat :)_\n\n*💗 Thank You For Using Ravana Bot 💌`});
         }
     });
     
