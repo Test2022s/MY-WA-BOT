@@ -1,10 +1,10 @@
 {
-  "name": "slRavana",
-  "version": "4.5.0",
-  "description": ".",
-  "main": "index.js",
+  "name": "RavanaBot",
+  "version": "4.0.1",
+  "description": "RAVANA project - Makes it easy and fun to use Whatsapp",
+  "main": "./4.0/bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
