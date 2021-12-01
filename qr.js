@@ -1,4 +1,5 @@
 //https://github.com/RAVANA-SL/slRavana
+//RAVANA v4.5
 
 const chalk = require('chalk');
 const {WAConnection, MessageOptions, MessageType} = require('@adiwajshing/baileys');
