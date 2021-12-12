@@ -1,10 +1,10 @@
 {
   "name": "slRavana",
-  "version": "4.5.0",
+  "version": "4.0.1",
   "description": ".",
-  "main": "index.js",
+  "main": "./bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
