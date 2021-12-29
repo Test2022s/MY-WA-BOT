@@ -11,7 +11,7 @@ const lol = "need some word\n🗡🗡"
 const dnpack = "r logo pack";
 let rp = Config.WORKTYPE == 'public' ? false : true
     
-RAVANA.useCmd({pattern: 'rpack', fromMe: rp, desc: dnpack}, (async (message, match) => {
+RAVANA.addCommand({pattern: 'rpack', fromMe: rp, desc: dnpack}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -58,7 +58,7 @@ RAVANA.useCmd({pattern: 'rpack', fromMe: rp, desc: dnpack}, (async (message, mat
 
 }));
 
-RAVANA.useCmd({ pattern: 'naruto ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'naruto ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -68,7 +68,7 @@ RAVANA.useCmd({ pattern: 'naruto ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'bneon ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'bneon ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -78,7 +78,7 @@ RAVANA.useCmd({ pattern: 'bneon ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'matrix ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'matrix ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -88,7 +88,7 @@ RAVANA.useCmd({ pattern: 'matrix ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'breakwall ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'breakwall ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -98,7 +98,7 @@ RAVANA.useCmd({ pattern: 'breakwall ?(.*)', fromMe: lt,dontAddCommandList: true}
 
     }));
 
-RAVANA.useCmd({ pattern: 'dropwater ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'dropwater ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -108,7 +108,7 @@ RAVANA.useCmd({ pattern: 'dropwater ?(.*)', fromMe: lt,dontAddCommandList: true}
 
     }));
 
-RAVANA.useCmd({ pattern: 'wolflogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'wolflogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -125,7 +125,7 @@ RAVANA.useCmd({ pattern: 'wolflogo ?(.*)', fromMe: lt,dontAddCommandList: true},
 
     }));
 
-RAVANA.useCmd({ pattern: 'flower ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'flower ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -135,7 +135,7 @@ RAVANA.useCmd({ pattern: 'flower ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'cross ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'cross ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -145,7 +145,7 @@ RAVANA.useCmd({ pattern: 'cross ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'silk ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'silk ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -155,7 +155,7 @@ RAVANA.useCmd({ pattern: 'silk ?(.*)', fromMe: lt,dontAddCommandList: true}, (as
 
     }));
 
-RAVANA.useCmd({ pattern: 'flame ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'flame ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -165,7 +165,7 @@ RAVANA.useCmd({ pattern: 'flame ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'glow ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'glow ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -175,7 +175,7 @@ RAVANA.useCmd({ pattern: 'glow ?(.*)', fromMe: lt,dontAddCommandList: true}, (as
 
     }));
 
-RAVANA.useCmd({ pattern: 'smoke ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'smoke ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -185,7 +185,7 @@ RAVANA.useCmd({ pattern: 'smoke ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'pubg ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'pubg ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
         var topText, bottomText;
@@ -201,7 +201,7 @@ RAVANA.useCmd({ pattern: 'pubg ?(.*)', fromMe: lt,dontAddCommandList: true}, (as
 
     }));
 
-RAVANA.useCmd({ pattern: 'sky ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'sky ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -211,7 +211,7 @@ RAVANA.useCmd({ pattern: 'sky ?(.*)', fromMe: lt,dontAddCommandList: true}, (asy
 
     }));
 
-RAVANA.useCmd({ pattern: 'cslogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'cslogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -221,7 +221,7 @@ RAVANA.useCmd({ pattern: 'cslogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'lithg ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'lithg ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -231,7 +231,7 @@ RAVANA.useCmd({ pattern: 'lithg ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'crismes ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'crismes ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -241,7 +241,7 @@ RAVANA.useCmd({ pattern: 'crismes ?(.*)', fromMe: lt,dontAddCommandList: true}, 
 
     }));
 
-RAVANA.useCmd({ pattern: 'gtext ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'gtext ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
         var topText, bottomText;
@@ -257,7 +257,7 @@ RAVANA.useCmd({ pattern: 'gtext ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'gplaybutton ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'gplaybutton ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -267,7 +267,7 @@ RAVANA.useCmd({ pattern: 'gplaybutton ?(.*)', fromMe: lt,dontAddCommandList: tru
 
     }));
 
-RAVANA.useCmd({ pattern: 'tfire ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'tfire ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -277,7 +277,7 @@ RAVANA.useCmd({ pattern: 'tfire ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'marvellogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'marvellogo ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
         var topText, bottomText;
@@ -292,7 +292,7 @@ RAVANA.useCmd({ pattern: 'marvellogo ?(.*)', fromMe: lt,dontAddCommandList: true
 
     }}));
 
-RAVANA.useCmd({ pattern: 'tlight ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'tlight ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -302,7 +302,7 @@ RAVANA.useCmd({ pattern: 'tlight ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'text3d ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'text3d ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -312,7 +312,7 @@ RAVANA.useCmd({ pattern: 'text3d ?(.*)', fromMe: lt,dontAddCommandList: true}, (
 
     }));
 
-RAVANA.useCmd({ pattern: 'sandw ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'sandw ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -322,7 +322,7 @@ RAVANA.useCmd({ pattern: 'sandw ?(.*)', fromMe: lt,dontAddCommandList: true}, (a
 
     }));
 
-RAVANA.useCmd({ pattern: 'tex3d ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
+RAVANA.addCommand({ pattern: 'tex3d ?(.*)', fromMe: lt,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
