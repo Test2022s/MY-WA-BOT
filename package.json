@@ -1,8 +1,8 @@
 {
-  "name": "slRavana",
+  "name": "RavanaBot",
   "version": "4.0.1",
-  "description": ".",
-  "main": "./bot.js",
+  "description": "RAVANA project - Makes it easy and fun to use Whatsapp",
+  "main": "./4.0/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/agentmax123/4.0#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "3.4.1",
+    "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
     "api-jessi": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
