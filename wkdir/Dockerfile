@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/agentmax123/4.5 /root/4.5
+RUN git clone https://github.com/agentmax123/RAVANA-BOT /root/4.5
 WORKDIR /root/4.5/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
